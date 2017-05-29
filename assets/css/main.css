@@ -93,6 +93,39 @@ div.border-0 .containerFlex{
     align-items: center;
     margin-top: 4rem;
 }
+section#conductor{
+	position: relative;
+}
+.widthFull{
+    width: 100%;
+    	color:white;
+    background-color: rgba(0, 0, 0, 0.46);
+    position: absolute;
+    top: 0;
+    padding: 11.5rem 3rem;
+}
+.contentConduce{
+	background-color: rgba(0, 0, 0, 0.46);
+    background-image: url(../img/conduce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    /*background-attachment: fixed;*/
+}
+div.altMobile{
+	height: 50rem;
+}
+div.textcontent h2{
+	font-size: 5rem;
+}
+div.textcontent p{
+	font-size: 3rem;
+}
+div.textcontent button{
+	font-size: 4rem;
+	color:white;
+	background-color: #F7B617;
+}
 @media (min-width: 768px) {
 	.hDesktop{
     	height: 55rem;
@@ -158,6 +191,26 @@ div.border-0 .containerFlex{
 	div.border-0{
 		display: none;
 	}
+	section#conductor .widthDesk{
+   		color:white;
+    	position: absolute;
+    	top: 0;
+	}
+	div.widthFull{
+		background-color: transparent;
+	}
+	section#conductor .altDesktop{
+		height: 59rem;
+	}
+	.textcontent{
+    	position: absolute;
+    	padding-top:4rem; 
+    	padding-bottom:4rem;
+    	padding-left:4rem;
+    	background-color: rgba(0, 0, 0, 0.46);
+	}
+
+	
 
 }
 
