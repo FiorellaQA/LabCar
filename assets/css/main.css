@@ -3,3 +3,18 @@ body{
 	margin:0;
 	padding:0;
 }
+button.btn-hamburguer{
+	float: left;
+	margin-left: 15px;
+	border:none;
+
+}
+button.btn-hamburguer:hover {
+    background-color: none; 
+ }
+ .contentLogo{
+ 	padding-left: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
