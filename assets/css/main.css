@@ -126,6 +126,64 @@ div.textcontent button{
 	color:white;
 	background-color: #F7B617;
 }
+section#tarifas{
+	color:white;
+	background-color: #F7B617;
+}
+section#tarifas input{
+	background-color: #F7B617;
+	border-color: white;
+	border-radius: 1rem;
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { 
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+section#tarifas label.addonPersonal {
+   background-color: #F7B617;
+   border: 0;
+   color: white;
+}
+div.paddingContent {
+    padding: 2rem 0;
+}
+div.borderMap{
+	display: none;
+}
+div#map {
+    height: 30rem;
+}
+div.none{
+	display: none;
+}
+div.flexible{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 3rem;
+}
+footer{
+	padding: 8rem 0;
+	color:white;
+	height: auto;
+	background-color: #272424;
+}
+footer a{
+	color:white;
+}
+footer i{
+	color:white;
+}
+
 @media (min-width: 768px) {
 	.hDesktop{
     	height: 55rem;
@@ -159,7 +217,7 @@ div.textcontent button{
 		position: relative;
 		padding: 0.5rem;
 	}
-	 hr:before {
+	 hr.des:before {
 		content: "O bien";
     	background-color: #F7B617;
     	position: absolute;
@@ -209,6 +267,11 @@ div.textcontent button{
     	padding-left:4rem;
     	background-color: rgba(0, 0, 0, 0.46);
 	}
+	div.borderMap{
+		display: block;
+	border:1px solid white;
+	padding: 1rem;
+}
 
 	
 
