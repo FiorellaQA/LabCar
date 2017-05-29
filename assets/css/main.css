@@ -31,7 +31,7 @@ button.btn-hamburguer:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: bottom;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 .hMobile{
 	height: 100rem;
@@ -59,8 +59,29 @@ button.btn-hamburguer:hover {
     font-size: 3rem;
     border-radius: 1rem;
 }
-
-
+section#info{
+    padding: 4rem 0;
+    color: white;
+    background-color: #F7B617;
+}
+#info div.row{
+	border: 1px solid white;
+}
+div.content-celular,
+div.textApp{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+div.content-celular{
+	padding-left: 9rem;
+}
+div.textApp h2{
+	font-size: 4rem;
+	margin-bottom: 4rem;
+}
+div.textApp p{
+	font-size: 2rem;
+}
 @media (min-width: 768px) {
 	.hDesktop{
     	height: 55rem;
