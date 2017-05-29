@@ -64,23 +64,24 @@ section#info{
     color: white;
     background-color: #F7B617;
 }
-#info div.row{
-	border: 1px solid white;
-}
-div.content-celular,
-div.textApp{
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
 div.content-celular{
-	padding-left: 9rem;
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border: 1px solid white;
+    /* padding-left: 3rem; */
 }
-div.textApp h2{
-	font-size: 4rem;
-	margin-bottom: 4rem;
+div.content-celular h2{
+	display: block;
+	font-size: 5rem;
+	margin-bottom: 3rem;
 }
-div.textApp p{
-	font-size: 2rem;
+div.textApp{
+	display: none;
 }
 @media (min-width: 768px) {
 	.hDesktop{
@@ -123,6 +124,27 @@ div.textApp p{
     	left: 13rem;
     	padding: 0 6rem;
   	}
+  	div.content-celular h2{
+		display: none;
+	}
+  	div.content-celular{
+  		border:none;
+  	}
+  	#info div.row{
+		border: 1px solid white;
+	}
+  	div.textApp{
+		display: block;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+	div.textApp h2{
+		font-size: 4rem;
+		margin-bottom: 4rem;
+	}
+	div.textApp p{
+		font-size: 2rem;
+	}
 
 }
 
